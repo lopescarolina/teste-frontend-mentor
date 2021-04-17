@@ -9,10 +9,10 @@ body {
 #principal {
     
     display: flex;
-    
+    height: 100vh;
     justify-content: center;
-    align-items: flex-end;
-    padding-top: 250px;
+    align-items: center;
+    
 
 }
 

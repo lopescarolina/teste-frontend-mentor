@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+
+
+#principal {
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 250px;
+
+}
+
+.menu-horizontal { 
+       
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    margin: 10px;
+
+}
+
+.fonte-titulo {
+
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 27px;
+    text-align: left;
+    color: white;
+    padding-left: 30px;
+  
+}
+
+.texto {
+
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    text-align: left;
+    padding: 0px;
+    margin: 20px;
+      
+}
+
+.card {
+
+    height: 420px;
+    width: 290px; 
+    padding-top: 50px;
+    list-style: none;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+
+}
+
+.primeiro {
+
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.segundo {
+
+    background-color:  hsl(184, 100%, 22%);
+
+}
+
+.terceiro {
+
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.botao {
+
+    font-family: 'Lexend Deca', sans-serif;
+    border-radius: 25px;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    border-color: white;
+    margin-top: 80px;
+    margin-left: 30px;
+
+}
+
+.botao1 {
+
+    color: hsl(31, 77%, 52%);
+}
+
+.botao2 {
+
+    color: hsl(184, 100%, 22%);
+    
+}
+
+
+.botao3 {
+
+    color: hsl(179, 100%, 13%);
+     
+}
+
+.img {
+
+    padding-left: 30px;
+    padding-bottom: 15px;
+    
+}
+
+.botao:hover {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
